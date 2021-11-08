@@ -1,0 +1,56 @@
+#qna {
+  display: none;
+}
+
+.qBox {
+  background-color: lemonchiffon;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 24px;
+  width: 80%;
+}
+
+.answerList {
+  background-color: lightyellow;
+  border-radius: 20px;
+  display: block;
+  width: 80%;
+  border: 0px;
+  font-size: 20px;
+}
+
+.answerList:hover,
+.answerList:focus {
+  /* 마우스 올렸을 때 */
+  background-color: #fe9090;
+  color: lightyellow;
+}
+
+.status {
+  height: 20px;
+  width: 80%;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.statusBar {
+  height: 100%;
+  border-radius: 20px;
+  background: linear-gradient(to bottom, #febbbb 0%, #fe9090 52%, #ff5c5c 100%);
+}
+
+/* 나타나는 효과 */
+.fadeIn {
+  animation-name: fadeIn;
+  animation-duration: 1ss;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+
+/* 사라지는 효과 */
+.fadeOut {
+  animation-name: fadeOut;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}

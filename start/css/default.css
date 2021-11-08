@@ -1,0 +1,9 @@
+/* 모든 글자에 이 폰트를 사용한다 */
+
+* {
+  font-family: "Hi Melody", cursive, bold;
+}
+
+body {
+  background-color: pink;
+}
